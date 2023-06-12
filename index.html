@@ -20,29 +20,30 @@
             background-color: orange;
             display: flex;
             padding: 0;
-            width: 19%;
+            width: 20%;
             border-radius: 55px;
         }
         .A H1 {
             margin-left: 13px;
         }
         .B {
-            margin-right: 100px;
             display: flex;
             align-items: center; 
             background-color: aqua;
             width: 100%;
             justify-content: flex-end;
+            margin-right: 50px;
+            
             
             
         }
-        .B h1,h2{
+        .B-item {
             margin-left: 5px;
             display: flex;
             align-items: center;
             margin-right: 40px;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: medium;
+            font-size: 10px;
         }
         .C {
             margin-left: 60%;
@@ -52,20 +53,24 @@
             display: flex;
             justify-content: space-between;
             background-color: pink;
+            height: 100%;
+
         }
         .logos {
             display: flex;
             margin-top: 50px;
+            margin-right: 50px;
         }
         .img-burger{
             position: relative;
             left: -50px;
+            width: 150px;
         }
         .price{
             margin-left: 20px;
             margin-bottom: 0;
             align-self: flex-end;
-            font-size: larger;
+            font-size: 25px;
         }
         .C2 {
             text-align: center;
@@ -85,6 +90,7 @@
             justify-content: space-between;
             text-align: center;
         }
+
         .D {
             margin-left: 80px;
             
@@ -93,9 +99,19 @@
             margin-left: 50px;
             align-items: center;
             margin-top: 70px;
-        } 
+        }    
+        .all {
+            flex-wrap: wrap;
+        }
         .popup {
             cursor: pointer;
+        }
+        .end {
+            text-align: center;
+            font-size: 8px;
+            background-color: pink;
+            border-radius: 20px;
+
         }
         @media only screen and (max-width: 600px) {
             body {
@@ -169,6 +185,9 @@
                 left: 2%;
                 width: 100px;
             }
+            .end {
+                font-size: 5px;
+            }
         }
          
     </Style>
@@ -207,27 +226,28 @@
                     <img src="content1.png" alt="" width="250px" class="canvas">
                 </div>
             </div>
-            <h1 class="C2">MENU/ITEM</h1>
+            
         </div>
 
         <div class="all">
+            <h1 class="C2">MENU/ITEM</h1>
             
             <div class="logos">
                 <img src="menu 3.png" alt="" class="img-burger">
-                <h1 class="popup">COMBO MEAL 1</h1>
+                <h1 class="popup">RK MEAL 1</h1>
                 <div class="star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span>
                 </div>
-                <h2 class="price">199php</h2>
+                <h2 class="price">69.00php</h2>
             </div>
 
             <div class="logos">
                 <img src="menu 3.png" alt="" class="img-burger">
-                <h1 class="popup">COMBO MEAL 2</h1>
+                <h1 class="popup">RK MEAL 2</h1>
                 <div class="star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -235,25 +255,25 @@
                     <span class="fa fa-star"></span>
                     <span class="fa fa-star"></span>
                 </div>
-                <h2 class="price">199php</h2>
+                <h2 class="price">79.00php</h2>
             </div>
 
             <div class="logos">
                 <img src="menu 3.png" alt="" class="img-burger">
-                <h1 class="popup">COMBO MEAL 3</h1>
+                <h1 class="popup">RK MEAL 3</h1>
                 <div class="star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span>
                 </div>
-                <h2 class="price">199php</h2>
+                <h2 class="price">69.00php</h2>
             </div>
 
             <div class="logos">
                 <img src="menu 3.png" alt="" class="img-burger">
-                <h1 class="popup">COMBO MEAL 4</h1>
+                <h1 class="popup">RK MEAL 4</h1>
                 <div class="star">
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
@@ -261,12 +281,16 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                 </div>
-                <h2 class="price">199php</h2>
+                <h2 class="price">89.00php</h2>
             </div>
+            
 
         </div>
     </div>
-
+    <div class="end">
+        <h1>BRGY.COTTA,PUROK PUTING BUHANGIN,LUCENA CITY,QUEZON PROVINCE</h1>
+        <h2>THANK YOU FOR VISITING OUR WEBSITE!!!! SEE YOU AGAIN HEHE ^_^</h2>
+    </div>
 
 
 
